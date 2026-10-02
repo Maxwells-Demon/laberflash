@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "laberflash-worker",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-02",
+  "durable_objects": {
+    "bindings": [{ "name": "LABERFLASH_DO", "class_name": "AAScheduler" }]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["AAScheduler"] }
+  ]
+}
