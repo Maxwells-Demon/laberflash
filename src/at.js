@@ -1,5 +1,4 @@
 const LOGIN_HOST="https://login.ald" + "italk-kundenbetreuung.de";
-const LOGIN_HOST="https://login.ald" + "italk-kundenbetreuung.de";
 const PORTAL_HOST="https://www.ald" + "italk-kundenportal.de";
 const OVERVIEW="/portal/auth/uebersicht/";
 const NAV="/scs/bff/scs-207-customer-master-data-bff/customer-master-data/v1/navigation-list";
